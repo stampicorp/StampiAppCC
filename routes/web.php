@@ -48,11 +48,6 @@ use Illuminate\Support\Facades\Route;
 //**** relation ManyToMany*************************
 	Route::get('/', function () {
 
-		$user = App\User::first();
-
-		$roles = App\role::first();
-
-		$user->roles()->sync($roles);
 
 	  
 	});
